@@ -1,0 +1,57 @@
+CREATE TABLE VPMarcos_campaigndonors (
+    NAME_OF_CAMPAIGN_CONTRIBUTORS VARCHAR(32) CHARACTER SET utf8,
+    AMOUNT_OF_CONTRIBUTION INT,
+    TYPE_OF_CONTRIBUTION VARCHAR(40) CHARACTER SET utf8
+);
+INSERT INTO VPMarcos_campaigndonors VALUES ('Escaler, Ernest L.',20000000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Singson, Jose Jr. C.',20000000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Alino, Eduardo L.',10000000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Fong, Susana',10000000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Villavicencio, Ernesto F.',4500000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Jude Cimafranco',3000000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Yulo, Jorge Manuel B.',3000000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Lu, David Brian',2500000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Uy, Ericson Sy',2500000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Lazaro, Manuel M.',2000000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Noval, Allan',2000000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Sy, Eligio T.',2000000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Tan, Joseph C.',2000000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Chona, Stanley Sy',1500000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Quezon, Mercedes P.',1000000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Serapio, Edward S.',1000000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Logan, Anna Liza G.',600000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Agus, Erlinda T.',500000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Fabros, Monette Eloisa C.',500000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Flaminiano, J. Alberto C.',500000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Flaminiano, Jose Sr. B.',500000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Lazaro, Melanio B.',500000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Reyes, Juan Emmanuel M.',500000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Teston, Paolo S.',500000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Quezon, Don-Vic P.',450000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Maronilla, Fernando S.',300000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Ravanera, Manuel R.',300000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Sy, Elizabeth D.V.',300000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Bago, Francisco Jr. D.',200000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Bautista, Maricar T.',200000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Diaz, Kristine Joy',200000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Ejercito, Bienvenido',150000,'Use of facility as campaign headquarters');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Guillermo, Jesirene R.',100000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Guillermo, Jhundee G.',100000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Masukat-Fajardo, Emilie Grace T.',100000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Ramos, Frances Lynn C.',100000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Ravanera, Ilya Kristine R.',100000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Domingo, Shiela F.',20000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Masukat-Fajardo, Emilie Grace T.',10000,'Use of Vehicle');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Alfonso, Nilo O.',5000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Batoon, Lyra E.',5000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Blancia, Rogelio A.',5000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Campanano, Darwin A.',5000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('De Guzman, Cheryll S.',5000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('De Leon, Eduardo M.',5000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Dela Rama, Anna Liza',5000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Grande, Alma U.',5000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Guevarra, Jennelyn R.',5000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Rozon, Edgar G.',5000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Salvador, Jessie T.',5000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('Villamia, Marife C.',5000,'Cash');
+INSERT INTO VPMarcos_campaigndonors VALUES ('TOTAL',93790000,NULL);

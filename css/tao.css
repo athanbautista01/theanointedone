@@ -1,0 +1,27 @@
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.navbar-toggle {
+    z-index: 3;
+}
+
+.navbar {
+    background: url("../images/header.png") no-repeat center 0px;
+    padding-bottom: 30px;
+    margin-bottom: -60px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+        font-weight: 500;
+        text-transform: uppercase;
+}
+
+imggg{
+    height: 100px;
+}
