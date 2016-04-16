@@ -25,3 +25,18 @@
 imggg{
     height: 100px;
 }
+
+hr.hra {
+    border-top: 1px dashed #036a93;
+    border-bottom: 1px solid #dd2a28;
+    color: #fff;
+    background-color: transparent;
+    height: 4px;
+}
+hr.hrb {
+    border-top: 1px solid #dd2a28;
+    border-bottom: 1px dashed #036a93;
+    color: #fff;
+    background-color: transparent;
+    height: 4px;
+}
