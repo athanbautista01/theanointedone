@@ -9,5 +9,5 @@
     <div class="col-lg-12">
     </div>
 </section>
-        </div>
+</div>
 <?php include("include/footer.html")?>

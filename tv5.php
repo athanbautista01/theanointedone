@@ -12,35 +12,35 @@
                 <th>CATEGORY</th>
                 <th>SUB-CATEGORY</th>
                 <th>TOTAL NO. OF REGISTERED VOTERS</th>
-                </thead>
+</thead>
                 <tbody class="row">
                 <tr>
 
                     <?php
-                           $query = "SELECT CATEGORY, SUB_CATEGORY, TOTAL_NO_OF_REGISTERED_VOTERS FROM voters_national";
-                                       $result = $conn->query($query); 
-                                              if ($conn->error) {
-                                                die("Query failed: " . $conn->error);
-                                              } 
-                                              //If there are records fetched, iterate through the data set
-                                              if ($result->num_rows) {    
-                                                while ($row = mysqli_fetch_assoc($result)) {
-                                                    echo "<td>";
-                                                    echo  $row['CATEGORY'];
-                                                     echo "</td>";
-                                                      echo "<td>";
-                                                    echo  $row['SUB_CATEGORY'];
-                                                     echo "</td>";
-                                                    echo "<td>";
-                                                    echo  $row['TOTAL_NO_OF_REGISTERED_VOTERS'];
-                                                     echo "</td>";
-                                 echo "<tr></tr>";
-                            }
+                        $query = "SELECT CATEGORY, SUB_CATEGORY, TOTAL_NO_OF_REGISTERED_VOTERS FROM voters_national";
+                        $result = $conn->query($query); 
+                        if ($conn->error) {
+                        die("Query failed: " . $conn->error);
+                        } 
+                        //If there are records fetched, iterate through the data set
+                        if ($result->num_rows) {    
+                        while ($row = mysqli_fetch_assoc($result)) {
+                        echo "<td>";
+                        echo  $row['CATEGORY'];
+                        echo "</td>";
+                        echo "<td>";
+                        echo  $row['SUB_CATEGORY'];
+                        echo "</td>";
+                        echo "<td>";
+                        echo  $row['TOTAL_NO_OF_REGISTERED_VOTERS'];
+                        echo "</td>";
+                        echo "<tr></tr>";
+                        }
                         }
                     ?>
 
                 </tr>
-                                        </tbody>
+</tbody>
             </table>
         </div>
     </div>
@@ -53,38 +53,38 @@
                 <th>CANDIDATES</th>
                 <th>TOTAL DONATION IN PESO</th>
                 <th>YEAR</th>
-                </thead>
+</thead>
                 <tbody class="row">
                 <tr>
 
                     <?php
-                           $query = "SELECT CANDIDATES, TOTAL_DONATION_IN_PESO, YEAR FROM total_campaign_donations_received";
-                                       $result = $conn->query($query); 
-                                              if ($conn->error) {
-                                                die("Query failed: " . $conn->error);
-                                              } 
-                                              //If there are records fetched, iterate through the data set
-                                              if ($result->num_rows) {    
-                                                while ($row = mysqli_fetch_assoc($result)) {
-                                                    echo "<td>";
-                                                    echo  $row['CANDIDATES'];
-                                                     echo "</td>";
-                                                      echo "<td>";
-                                                    echo  "P " . $row['TOTAL_DONATION_IN_PESO'];
-                                                     echo "</td>";
-                                                    echo "<td>";
-                                                    echo  $row['YEAR'];
-                                                     echo "</td>";
-                                 echo "<tr></tr>";
-                            }
+                        $query = "SELECT CANDIDATES, TOTAL_DONATION_IN_PESO, YEAR FROM total_campaign_donations_received";
+                        $result = $conn->query($query); 
+                        if ($conn->error) {
+                        die("Query failed: " . $conn->error);
+                        } 
+                        //If there are records fetched, iterate through the data set
+                        if ($result->num_rows) {    
+                        while ($row = mysqli_fetch_assoc($result)) {
+                        echo "<td>";
+                        echo  $row['CANDIDATES'];
+                        echo "</td>";
+                        echo "<td>";
+                        echo  "P " . $row['TOTAL_DONATION_IN_PESO'];
+                        echo "</td>";
+                        echo "<td>";
+                        echo  $row['YEAR'];
+                        echo "</td>";
+                        echo "<tr></tr>";
+                        }
                         }
                     ?>
 
                 </tr>
-                                        </tbody>
+</tbody>
             </table>
         </div>
     </div>
 </section>
-        </div>
+</div>
 <?php include("include/footer.html")?>

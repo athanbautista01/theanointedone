@@ -3,7 +3,7 @@
 <div class="col-lg-12 text-center">
     <section id="first" class="sec"><br><br>
         <h3>To start educating you on how to choose the right leader.</h3>
-        <h3>Take action by giving your time and share to these <br>information to other people that you may know...</h3><br>
+        <h3>Take action by giving your time and share these <br>information to other people that you may know...</h3><br>
         <div class="col-lg-12">
             <div class="bor">
                 <p><b>Integrity/ Honesty</b> – Does your chosen candidate have a track record of being an honest person? Dishonest leaders had been voted into office before with great costs to the citizenry. Money stolen by a mendacious official is money earmarked for public infrastructures and services the citizens will never receive. A corrupt pilferer of government coffers should not receive any vote.</p>
@@ -86,5 +86,5 @@
     </section>
 
 </div>
-        </div>
+</div>
 <?php include("include/footer.html")?>

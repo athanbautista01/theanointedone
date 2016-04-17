@@ -7,5 +7,5 @@
         <a href="https://joeam.com/2014/04/11/why-making-the-right-choice-in-the-2016-election-is-crucial/"><p>WHY MAKING THE RIGHT CHOICE IN THE 2016 ELECTION IS CRUCIAL</p></a>
     </div>
 </section>
-        </div>
+</div>
 <?php include("include/footer.html")?>

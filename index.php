@@ -1,8 +1,10 @@
-<?php $title="The Anointed One"; 
- include("include/header.php");?>
+<?php
+     $title="The Anointed One"; 
+    include("include/header.php");
+?>
 <section>
-        <h1 class="text-center">"HELPING PEOPLE TO CHOOSE THE NEXT LEADER"</h1>
-        <img class="img-responsive img-thumbnail" src="images/home.jpg">
+    <h1 class="text-center">"HELPING PEOPLE TO CHOOSE THE NEXT LEADER"</h1>
+    <img class="img-responsive img-thumbnail" src="images/home.jpg">
     <br>
     <hr class="hra">
     <div class="col-lg-12">
@@ -15,11 +17,11 @@
                     <h5>Jejomar Binay</h5>
                     <p></p>
                     <p><button class="btn btn-default" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                    MORE
+MORE
                         </button>
                         <div class="collapse" id="collapseExample">
                             <div class="well">
-                                            ...
+...
                             </div>
                         </div></p>
                 </div>
@@ -32,11 +34,11 @@
                     <h5>Miriam Santiago</h5>
                     <p></p>
                     <p><button class="btn btn-default" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-                                    MORE
+MORE
                         </button>
                         <div class="collapse" id="collapseExample1">
                             <div class="well">
-                                            ...
+...
                             </div>
                         </div></p>
                 </div>
@@ -49,11 +51,11 @@
                     <h5>Rodrigo Duterte</h5>
                     <p></p>
                     <p><button class="btn btn-default" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-                                    MORE
+MORE
                         </button>
                         <div class="collapse" id="collapseExample2">
                             <div class="well">
-                                            ...
+...
                             </div>
                         </div></p>
                 </div>
@@ -66,11 +68,11 @@
                     <h5>Grace Poe</h5>
                     <p></p>
                     <p><button class="btn btn-default" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
-                                    MORE
+MORE
                         </button>
                         <div class="collapse" id="collapseExample3">
                             <div class="well">
-                                            ...
+...
                             </div>
                         </div></p>
                 </div>
@@ -83,11 +85,11 @@
                     <h5>Mar Roxas</h5>
                     <p></p>
                     <p><button class="btn btn-default" type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
-                                    MORE
+MORE
                         </button>
                         <div class="collapse" id="collapseExample4">
                             <div class="well">
-                                            ...
+...
                             </div>
                         </div></p>
                 </div>
@@ -119,5 +121,5 @@
         </div>
     </div>
 </section>
-        </div>
+</div>
 <?php include("include/footer.html")?>
