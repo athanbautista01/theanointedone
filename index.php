@@ -101,24 +101,37 @@ MORE
 
     <div class="col-lg-12">
         <div class="col-lg-12">
-            <h3 class="text-center">What are the things you Look for in a Presidential Candidate?</h3>
+            <h3 class="text-center">What are the things you Look for a Presidential and Vice Presidential Candidate?</h3>
             <hr class="hrb">
-            <form>
+            <form action="include/processpost.php" method="post">
                 <div class="form-group col-lg-4 col-lg-offset-4">
-                    <input type="text" class="form-control text-center" id="recipient-name" placeholder="Write Your Name">
+                    <input type="text" class="form-control text-center" name="voter" id="voter" required placeholder="Write Your Name">
                 </div>
                 <div class="form-group col-lg-6 col-lg-offset-3">
-                    <textarea class="form-control text-center" rows="2" type="text" name="pananaw" required placeholder="Write here the things you Look for in a Presidential Candidate"></textarea>
+                    <textarea class="form-control text-center" rows="2" type="text" name="pananaw" id="pananaw" required placeholder="Write here the things you Look for in a Presidential Candidate"></textarea>
                 </div>
                 <div class="form-group text-center col-lg-12">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">POST</button>
-                    <button type="button" class="btn btn-default">CANCEL</button>
+                    <input type="submit" name="submitAdd" value="POST" class="btn btn-default" />
+                    <a class="btn btn-default" href="index.php">Cancel</a>
                 </div>
             </form>
         </div>
-
-        <div class="col-lg-6">
+        <?php
+            $query = "SELECT Name, Feedback FROM post_feedbacks";
+            $result = $conn->query($query); 
+            if ($conn->error) {
+            die("Query failed: " . $conn->error);
+            } 
+            //If there are records fetched, iterate through the data set
+            if ($result->num_rows) {    
+            while ($row = mysqli_fetch_assoc($result)) {
+        ?>
+        
+        <div class="col-lg-4 text-center">
+            <h3><?php echo $row['Feedback'];?></h3>
+            <p>-<?php echo $row['Name'];?></p>
         </div>
+        <?php            }}?>
     </div>
 </section>
 </div>

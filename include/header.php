@@ -57,6 +57,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="tv5">TV5 DataSets</a></li>
                                     <li><a href="gov">GOVERNMENT DataSets</a></li>
+                                    <li><a href="can">CANDIDATES Platforms</a></li>
                                     <li class="divider"></li>
                                     <li><a href="img">Images Resources</a></li>
                                     <li><a href="other">Other Resources</a></li>
