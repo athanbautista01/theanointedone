@@ -1,5 +1,5 @@
         <?php
-        $title="Pet Lane | Error";
+        $title="The Anointed One | Error";
             include("include/header.php");
         ?>
         <section>

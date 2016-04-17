@@ -1,6 +1,8 @@
+<?php $title="The Anointed One | Images Resources";?>
 <?php include("include/header.php")?>
 <section>
-        <h1 class="text-center">"YOUR GUIDE FOR SELECTIONG THE RIGHT LEADER"</h1>
+    <h1 class="text-center">"IMAGE RESOURCES"</h1>
+    <hr class="hrb">
     <div class="col-lg-12">
     </div>
 

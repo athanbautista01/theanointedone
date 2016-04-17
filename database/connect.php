@@ -5,6 +5,11 @@ $user = "tao";
 $password = "password";
 $database = "anointedone";
 
+//$host = "ap-cdbr-azure-southeast-b.cloudapp.net";
+//$user = "b1413f37e61de0";
+//$password = "37ba76a5";
+//$database = "theanointedone";
+
 //Connect to MySQL
 $conn = new mysqli($host, $user, $password, $database);
 
